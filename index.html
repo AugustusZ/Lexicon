@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <meta name="author" content="Yankuan Zhang">
+    <title>Lex-icon</title>
+
+    <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon' />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Latest compiled and minified jQuery -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="bodydiv" class="container">
+
+        <div id="canvas-div" class="container">
+            <canvas id="canvas"></canvas>
+            <textarea id="textbox" type="text" rows="3" placeholder="English text only"></textarea>
+        </div>
+        <div id="submit-div">
+            <a id="saveanchor">
+                <button id="download" class="btn btn-danger btn-lg">
+                    <span class="glyphicon glyphicon-download"></span> Download
+                </button>
+            </a>
+        </div>
+
+        <div id="ack">
+            <hr>
+            <br>
+            <h1>Donate via WeChat</h1>
+            <br>
+            <div>
+                <img src="img/wechatpay.jpg" />
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+    <script src="script/actions.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+<!--
+canvas.toDataURL('image/jpeg', quality)
+Creates a JPG image. Optionally, you can provide a quality in the range from 0 to 1, with one being the best quality and with 0 almost not recognizable but small in file size.
+Once you have generated a data URI from you canvas, you are able to use it as the source of any <image> or put it into a hyper link with a download attribute to save it to disc, for example.
+
+https://github.com/blueimp/JavaScript-Load-Image
+-->

@@ -1,0 +1,84 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    body {
+        font-size: 200%;
+    }
+    #header {
+        width: 300px;
+        line-height: 1.5
+    }
+    .btn {
+        border-radius: 18px;
+    }
+}
+
+@media only screen and (min-device-width: 569px) {
+    body {
+        font-size: 100%;
+    }
+    #header {
+        width: 500px;
+    }
+    .btn {
+        border-radius: 6px;
+    }
+}
+
+@font-face {
+    font-family: 'Lexy';
+    src: url('Lexy.ttf');
+}
+
+* {
+    /*            font-size: 14px;*/
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.btn {
+    margin: 7px;
+}
+
+div.container {
+    padding: 0;
+}
+
+#upload-input {
+    display: none;
+}
+
+#canvas {
+    width: 90%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .3);
+    margin: 30px auto;
+}
+
+#loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: white;
+}
+
+#upload {
+    z-index: 100;
+}
+
+#prelude {
+    margin-top: 10px;
+}
+
+#palette .btn-black-outline {
+    color: black;
+    background-color: transparent;
+    background-image: none;
+    border-color: black;
+}
+
+#palette .btn-black-outline:hover,
+#palette .btn-black-outline:active {
+    color: #fff !important;
+    background-color: black !important;
+}
