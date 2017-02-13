@@ -38,7 +38,7 @@ This tool will generate this downloadable image:
 Okay, I created a typeface called **Lexy** and this tool generates icons with the customized text in Lexy. So, **Lexy + icon = Lexicon**.
 ![](demo/lexytypeface.png)
 
-Free download the Lexy typeface here: [bit.ly/lexytypeface](bit.ly/lexytypeface)
+Free download the Lexy typeface here: [bit.ly/lexytypeface](http://bit.ly/lexytypeface)
 
 
 
